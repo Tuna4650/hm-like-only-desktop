@@ -187,13 +187,11 @@ a {
 
 .main {
     width: 32%;
-    height: 1400px;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
     background-color: red;
-    z-index: -1;
 }
 
 .footer {
