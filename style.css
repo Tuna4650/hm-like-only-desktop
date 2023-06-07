@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 1px solid black;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+}
+
+
+
+.searchButton {
+    width: 40px;
+    height: 33px;
+    border: 1px solid black;
+    background: black;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap {
+    width: 32%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #FAF9F8;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content .header {
+    background: transparent;
+    padding: 16px;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    display: inline-block;
+    text-align: center;
+    width: 33.33%;
+    padding: 10px;
+    background-color: transparent;
+    height: 250px;
+}
+
+.column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.column a:hover {
+    background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.10s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.producttest {
+    width: 440px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.producttest2 {
+    width: 520px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    display: inline-block;
+    margin: 2%;
+}
+
+.main {
+    width: 32%;
+    height: 1400px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    z-index: -1;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 180%;
+    background-color: green;
+}
