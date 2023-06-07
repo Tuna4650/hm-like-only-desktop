@@ -54,6 +54,7 @@ body {
     overflow: hidden;
     background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .navbar a {
@@ -63,6 +64,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 .dropdown {
@@ -84,6 +86,7 @@ body {
 .navbar a:hover,
 .dropdown:hover .dropbtn {
     background-color: transparent;
+
 }
 
 .dropdown-content {
@@ -186,8 +189,8 @@ a {
 }
 
 .main {
-    width: 32%;
-    height: 1600px;
+    width: 39%;
+    height: 1400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15%;
@@ -200,4 +203,22 @@ a {
     position: absolute;
     top: 180%;
     background-color: green;
+}
+
+.item {
+    background-color: green;
+    margin: 5%;
+    height: 200px;
+}
+
+.am-next {
+    position: absolute;
+    top: 40%;
+    left: -2%;
+}
+
+.am-prev {
+    position: absolute;
+    top: 40%;
+    right: -2%;
 }
